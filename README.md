@@ -19,5 +19,6 @@ esto como evidencia para pedir más personal — ver la carpeta [`docs/`](docs/)
   ejemplo dibujado (Mermaid) de un mapa macro y un diagrama de
   procedimiento con carriles por persona, a modo de plantilla visual.
 - [`docs/resumen-carga-horaria.md`](docs/resumen-carga-horaria.md):
-  cálculo de horas-persona/mes de AB y RM a partir de datos reales, y qué
-  falta para cerrar el número exacto que sostiene el pedido de personal.
+  estado del cálculo de horas-persona/mes de AB y RM — por qué todavía no
+  se puede calcular con confianza y qué falta (descripción real de cada
+  tarea y tiempos medidos) para poder hacerlo.
