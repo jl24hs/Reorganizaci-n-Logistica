@@ -9,13 +9,8 @@ Gestion y Seguimiento de Clientes con Alta Recurrencia de Eventos (a confirmar n
 Gestion y Seguimiento de Clientes con Alta Recurrencia de Eventos (a confirmar nombre),Elaboracion y envio del informe semanal TOP10,Indagar y documentar la gestion realizada con cada cliente del TOP10,Se hace,RM (Ruben Moreyra),Semanal,A confirmar,4,A confirmar,,Alta,"Paso 12 - Observaciones, requiere contactar a cada cliente/tecnico"
 Gestion y Seguimiento de Clientes con Alta Recurrencia de Eventos (a confirmar nombre),Elaboracion y envio del informe semanal TOP10,Actualizar seguimiento del TOP10 de la semana anterior (Control Semana por Semana),Se hace,RM (Ruben Moreyra),Semanal,A confirmar,4,A confirmar,,,Paso 13
 Gestion y Seguimiento de Clientes con Alta Recurrencia de Eventos (a confirmar nombre),Elaboracion y envio del informe semanal TOP10,Enviar respuesta final del informe con observaciones,Se hace,RM (Ruben Moreyra),Semanal,A confirmar,4,A confirmar,,,Pasos 14 y 16
-Gestion de Ordenes de Servicio (a confirmar nombre),Pendiente de desglose,Pendiente de desglose (a detallar con RM),Se hace,RM (Ruben Moreyra),Semanal (martes),A confirmar,A confirmar,A confirmar,,,Dia asignado: martes - OS
-Gestion Remota de Equipos - REE (a confirmar nombre),Pendiente de desglose,Pendiente de desglose (a detallar con RM),Se hace,RM (Ruben Moreyra),Semanal (miercoles),A confirmar,A confirmar,A confirmar,,,Dia asignado: miercoles - REE
-Configuracion (a confirmar nombre de proceso),Pendiente de desglose,Pendiente de desglose (a detallar con RM),Se hace,RM (Ruben Moreyra),Semanal (jueves),A confirmar,A confirmar,A confirmar,,Alta,"Dia asignado: jueves. RM lo describe como muy amplio - candidato prioritario para desglosar en procedimientos/tareas"
 Gestion de Red - sede propia (a confirmar nombre),Pendiente de desglose,Pendiente de desglose (a detallar con RM),Se hace,RM (Ruben Moreyra),Semanal (viernes),A confirmar,A confirmar,A confirmar,,,"Dia asignado: viernes, comparte el dia con Revision de eventos diarios (ver fila siguiente) - son dos procesos distintos en un solo dia"
 Revision de Eventos Diarios (a confirmar nombre),Pendiente de desglose,Pendiente de desglose (a detallar con RM),Se hace,RM (Ruben Moreyra),Diaria,A confirmar,A confirmar,A confirmar,,,"Se ejecuta todos los dias pero se prioriza/cierra los viernes junto con Red - revisar si es realmente semanal o diaria"
-Falla de Tests (a confirmar nombre),Pendiente de desglose,Pendiente de desglose (a detallar con AB),Se hace,AB (Ariel Bazan),Semanal (lunes),A confirmar,A confirmar,A confirmar,,,Dia asignado: lunes
-Offline (a confirmar nombre),Pendiente de desglose,Pendiente de desglose (a detallar con AB),Se hace,AB (Ariel Bazan),Semanal (martes),A confirmar,A confirmar,A confirmar,,,Dia asignado: martes
 Redes,ISP,Mantener actualizada la planilla de IPs fijas,Se hace,AB (Ariel Bazan),A confirmar,A confirmar,A confirmar,A confirmar,,,"Dentro de Redes (dia asignado: miercoles)"
 Redes,ISP,Configurar las maquinas (alta o reinstalacion de equipos),Se hace,AB (Ariel Bazan),A confirmar,A confirmar,A confirmar,A confirmar,,,"Dentro de Redes / ISP"
 Redes,ISP,Instalar y mantener actualizado el antivirus en las maquinas,Se hace,AB (Ariel Bazan),A confirmar,A confirmar,A confirmar,A confirmar,,,"Dentro de Redes / ISP"
@@ -24,7 +19,105 @@ Redes,Telefonia IP,Pendiente de desglose (a detallar con AB),Se hace,AB (Ariel B
 Redes,Red NCS (sede Nuevocentro Shopping),Pendiente de desglose (a detallar con AB),Se hace,AB (Ariel Bazan),A confirmar,A confirmar,A confirmar,A confirmar,,Alta,"Dentro de Redes. Es una sede distinta - candidato a separarse como Procedimiento propio con sus tiempos de traslado"
 Redes,Camaras,Pendiente de desglose (a detallar con AB),Se hace,AB (Ariel Bazan),A confirmar,A confirmar,A confirmar,A confirmar,,,"Dentro de Redes (dia asignado: miercoles)"
 Redes,Impresoras,Pendiente de desglose (a detallar con AB),Se hace,AB (Ariel Bazan),A confirmar,A confirmar,A confirmar,A confirmar,,,"Dentro de Redes (dia asignado: miercoles). Nota: hay tareas de impresoras que tambien aparecen dentro de ISP - definir si es un Procedimiento propio o parte de ISP"
-Chips (a confirmar nombre),Pendiente de desglose,Pendiente de desglose (a detallar con AB),Se hace,AB (Ariel Bazan),Semanal (jueves),A confirmar,A confirmar,A confirmar,,,Dia asignado: jueves
-Stock (a confirmar nombre),Pendiente de desglose,Pendiente de desglose (a detallar con AB),Se hace,AB (Ariel Bazan),Semanal (viernes),A confirmar,A confirmar,A confirmar,,,Dia asignado: viernes
-Tareas Reactivas (Interrupciones),N/A,Recibir y atender a tecnicos que llegan al sitio,Se hace,AB / RM,Diaria (variable),A medir,A medir,A medir,,Alta,"No programable - resta tiempo a las tareas del dia asignado. Medir cantidad y duracion 2 semanas para cuantificar impacto"
-Tareas Reactivas (Interrupciones),N/A,Atender llamados telefonicos,Se hace,AB / RM,Diaria (variable),A medir,A medir,A medir,,Alta,"No programable - resta tiempo a las tareas del dia asignado. Medir cantidad y duracion 2 semanas para cuantificar impacto"
+Rutina Administrativa Diaria (AB),N/A,Chequear y responder chat de trabajo,Se hace,AB,Semanal,5,4.33,0.36,,,
+Rutina Administrativa Diaria (AB),N/A,Rehacer/actualizar hoja de Procesos Diarios,Se hace,AB,Mensual,60,1,1.0,,,Dia/momento: Ultimo dia.
+Rutina Administrativa Diaria (AB),N/A,Subir publicidad en WhatsApp (AB),Se hace,AB,Diario,5,22,1.83,,,Dia/momento: Primer dia.
+Rutina Administrativa Diaria (AB),N/A,Completar carga de Procesos Diarios,Se hace,AB,Diario,20,22,7.33,,,Dia/momento: Primer dia.
+Rutina Administrativa Diaria (AB),N/A,Ordenar escritorio,Se hace,AB,Diario,10,22,3.67,,,Dia/momento: Primer dia.
+Falla de Tests,Falla de Test,"Falla de Test (proceso completo, ver instructivo vinculado)",Se hace,AB,Semanal,30,4.33,2.17,,,Dia/momento: Lunes.
+Falla de Tests,Falla de Test,Falla de Test - Analisis,Se hace,AB,Diario,60,22,22.0,,,Dia/momento: Primer dia.
+Falla de Tests,Falla de Test,Falla de Test - Coordinacion con ST,Se hace,AB,Diario,5,22,1.83,,,Dia/momento: Primer dia.
+Offline,Offline,Offline - Analisis general (ver instructivo vinculado),Se hace,AB,Diario,30,22,11.0,,,Dia/momento: Primer dia.
+Offline,Offline,Offline - Coordinacion con ST,Se hace,AB,Diario,5,22,1.83,,,Dia/momento: Primer dia.
+Bloqueo y Desbloqueo de Equipos,Bloqueo/Desbloqueo AXpro,Bloqueo de equipos AXpro,Se hace,AB,Semanal,30,4.33,2.17,,,Dia/momento: Jueves.
+Bloqueo y Desbloqueo de Equipos,Bloqueo/Desbloqueo Paradox (remoto),"Bloqueo de equipos Paradox (PDX, remoto)",Se hace,AB,Semanal,30,4.33,2.17,,,Dia/momento: Jueves.
+Bloqueo y Desbloqueo de Equipos,Bloqueo/Desbloqueo AXpro,Desbloqueo de equipos AXpro,Se hace,AB,Semanal,30,4.33,2.17,,,Dia/momento: Jueves.
+Bloqueo y Desbloqueo de Equipos,Bloqueo/Desbloqueo Paradox (remoto),"Desbloqueo de equipos Paradox (PDX, remoto)",Se hace,AB,Semanal,30,4.33,2.17,,,Dia/momento: Jueves.
+Administracion General (AB),N/A,Control de carteleria,Se hace,AB,Mensual,5,1,0.08,,,Dia/momento: Primer dia.
+Administracion General (AB),N/A,Control e impresion de R.E.E.,Se hace,AB,Mensual,60,1,1.0,,,Dia/momento: Ultimo miercoles.
+Administracion General (AB),N/A,Control y solicitud de CSID a CM,Se hace,AB,Quincenal,15,2,0.5,,,Dia/momento: 2do y 4to jueves.
+Stock,Stock,Reposicion de Stock NCS,Se hace,AB,Semanal,60,4.33,4.33,,,"Dia/momento: Jueves. Dia real relevado es jueves, no viernes - confirmar"
+Stock,Stock,Conteo de insumos (limpieza),Se hace,AB,Mensual,10,1,0.17,,,Dia/momento: Ultimo miercoles.
+Stock,Stock,Solicitud de insumos (limpieza),Se hace,AB,Mensual,A confirmar,1,A confirmar,,,Dia/momento: Ultimo miercoles. Nombre parcialmente ilegible en el PDF - confirmar
+Stock,Stock,Conteo de insumos (cocina),Se hace,AB,Mensual,10,1,0.17,,,Dia/momento: Ultimo miercoles.
+Stock,Stock,Compra de insumos (cocina),Se hace,AB,Mensual,A confirmar,1,A confirmar,,,Dia/momento: Ultimo miercoles. Nombre parcialmente ilegible en el PDF - confirmar
+Stock,Stock,Conteo de insumos (libreria),Se hace,AB,Mensual,10,1,0.17,,,Dia/momento: Ultimo miercoles.
+Stock,Stock,Solicitud de insumos (libreria),Se hace,AB,Mensual,20,1,0.33,,,Dia/momento: Ultimo miercoles.
+Stock,Stock,Conteo de insumos (botiquin),Se hace,AB,Mensual,10,1,0.17,,,Dia/momento: Ultimo miercoles.
+Stock,Stock,Solicitud de insumos (botiquin),Se hace,AB,Mensual,20,1,0.33,,,Dia/momento: Ultimo miercoles.
+Stock,Stock,Cargar facturas de insumos,Se hace,AB,Semanal,30,4.33,2.17,,,Dia/momento: Jueves.
+Stock,Stock,Conteo de stock recibido,Se hace,AB,Semanal,60,4.33,4.33,,,
+Stock,Stock,Control de stock recibido,Se hace,AB,Semanal,90,4.33,6.5,,,
+Stock,Stock,Sellado y etiquetado de stock recibido,Se hace,AB,Semanal,90,4.33,6.5,,,
+Stock,Stock,Almacenamiento de stock recibido,Se hace,AB,Semanal,90,4.33,6.5,,,
+Stock,Stock,Control de buen estado receptoras IPR512 (R-04),Se hace,AB,Diario,10,22,3.67,,,
+Stock,Stock,Control stock NCS y conteo (Ezviz/Easy),Se hace,AB,Semanal,A confirmar,4.33,A confirmar,,,Dia/momento: Miercoles. Tiempo ilegible en el PDF - confirmar
+Gestion de Flota (AB),N/A,Control ITV vehiculo OYS427,Se hace,AB,Semestral,120,0.17,0.34,,,Dia/momento: Nov/May.
+Gestion de Flota (AB),N/A,Control impuestos vehiculo OYS427,Se hace,AB,Semestral,120,0.17,0.34,,,Dia/momento: Nov/May.
+Gestion de Flota (AB),N/A,Control ITV vehiculo AE533YE,Se hace,AB,Semestral,120,0.17,0.34,,,Dia/momento: Nov/May.
+Gestion de Flota (AB),N/A,Control impuestos vehiculo AE533YE,Se hace,AB,Semestral,120,0.17,0.34,,,Dia/momento: Nov/May.
+Administracion General (AB),N/A,Actualizar antivirus Norton,Se hace,AB,Trimestral,240,0.33,1.32,,,Dia/momento: Ene/Abr/Jul/Oct.
+Administracion General (AB),N/A,Preparacion de equipos (ST),Se hace,AB,A Demanda,30,A confirmar,A confirmar,,,
+Administracion General (AB),N/A,Mandar mensajes a AVATEC 01,Se hace,AB,Diario,10,22,3.67,,,
+Rutina Administrativa Diaria (RM),N/A,Aviso y coordinacion con ST,Se hace,RM,Diario,45,22,16.5,,,Dia/momento: Primer dia.
+Rutina Administrativa Diaria (RM),N/A,Subir publicidad en WhatsApp (RM),Se hace,RM,Diario,5,22,1.83,,,Dia/momento: Primer dia.
+Rutina Administrativa Diaria (RM),N/A,Subir informe de tareas diarias,Se hace,RM,Diario,5,22,1.83,,,Dia/momento: Primer dia.
+Rutina Administrativa Diaria (RM),N/A,Chequeo de ST realizados en el dia,Se hace,RM,Diario,15,22,5.5,,,Dia/momento: Primer dia.
+Rutina Administrativa Diaria (RM),N/A,Completar carga de Procesos Diarios,Se hace,RM,Diario,5,22,1.83,,,Dia/momento: Primer dia.
+Rutina Administrativa Diaria (RM),N/A,Ordenar escritorio,Se hace,RM,Diario,10,22,3.67,,,Dia/momento: Primer dia.
+Rutina Administrativa Diaria (RM),N/A,Contestar mensajes de clientes/mail (primera hora),Se hace,RM,Diario,60,22,22.0,,,Dia/momento: Primer dia.
+Rutina Administrativa Diaria (RM),N/A,Revisar planilla de Procesos (primera hora),Se hace,RM,Diario,1,22,0.37,,,Dia/momento: Primer dia.
+Rutina Administrativa Diaria (RM),N/A,Revisar planilla de Procesos (ultima hora),Se hace,RM,Diario,1,22,0.37,,,Dia/momento: Primer dia.
+Coordinacion de Guardia,Coordinacion de Guardia,Recepcion de N de Ticket,Se hace,RM,Mensual,15,1,0.25,,,
+Coordinacion de Guardia,Coordinacion de Guardia,Compartir N de Ticket en WhatsApp y Telegram,Se hace,RM,Mensual,5,1,0.08,,,
+Coordinacion de Guardia,Coordinacion de Guardia,Coordinacion de guardia CM,Se hace,RM,Semanal,15,4.33,1.08,,,Dia/momento: Miercoles.
+Coordinacion de Guardia,Coordinacion de Guardia,Agregar tecnico a guardia CM,Se hace,RM,Semanal,A confirmar,4.33,A confirmar,,,Dia/momento: Viernes. Tiempo ilegible en el PDF - confirmar
+Coordinacion de Guardia,Coordinacion de Guardia,Sacar tecnico de guardia CM,Se hace,RM,Semanal,A confirmar,4.33,A confirmar,,,Dia/momento: Viernes. Tiempo ilegible en el PDF - confirmar
+Ordenes de Servicio (OS),OS,Control e impresion de O.D.S.,Se hace,RM,Mensual,45,1,0.75,,,Dia/momento: Primer jueves.
+Ordenes de Servicio (OS),OS,Control e impresion de etiquetas de baterias,Se hace,RM,Mensual,45,1,0.75,,,Dia/momento: Tercer jueves.
+Ordenes de Servicio (OS),OS,Carga de N de ODS a Telegram,Se hace,RM,Semanal,15,4.33,1.08,,,Dia/momento: Lunes.
+Ordenes de Servicio (OS),OS,Carga de ODS a CM,Se hace,RM,Semanal,360,4.33,25.98,,,Dia/momento: Lunes y Martes.
+Ordenes de Servicio (OS),OS,Entrega de ODS a Administracion,Se hace,RM,Semanal,10,4.33,0.72,,,Dia/momento: Lunes.
+Ordenes de Servicio (OS),OS,Control de ODS cargadas y descuentos,Se hace,RM,Semanal,30,4.33,2.17,,,Dia/momento: Lunes y Martes.
+Gestion de Chips (administrativo),N/A,Cargar factura Personal Jasper,Se hace,RM,Mensual,15,1,0.25,,,Dia/momento: Dia 13.
+Gestion de Chips (administrativo),N/A,Cargar factura Movistar Smart,Se hace,RM,Mensual,15,1,0.25,,,Dia/momento: Dia 13.
+Gestion de Chips (administrativo),N/A,Cargar factura Claro Empleados,Se hace,RM,Mensual,15,1,0.25,,,Dia/momento: Dia 13.
+Gestion de Chips (administrativo),N/A,Cargar factura Claro M2M,Se hace,RM,Mensual,15,1,0.25,,,Dia/momento: Dia 13.
+Gestion de Chips (administrativo),N/A,Cargar factura Personal M2M,Se hace,RM,Mensual,15,1,0.25,,,Dia/momento: Dia 17.
+Gestion de Chips (administrativo),N/A,Cargar factura Claro Jasper,Se hace,RM,Mensual,15,1,0.25,,,Dia/momento: Dia 17.
+Gestion de Chips (administrativo),N/A,Analisis de factura de chips,Se hace,RM,Mensual,45,1,0.75,,,Dia/momento: Dia 17.
+Gestion de Chips (administrativo),N/A,Publicar resumen de gastos de chips,Se hace,RM,Mensual,15,1,0.25,,,Dia/momento: Dia 17.
+Gestion de Chips (administrativo),N/A,Control de chips,Se hace,RM,Semanal,45,4.33,3.25,,,Dia/momento: Jueves.
+Gestion de Chips (administrativo),N/A,Solicitar baja de chips,Se hace,RM,Semanal,15,4.33,1.08,,,Dia/momento: Viernes.
+Gestion de Chips (administrativo),N/A,Recupero de chips,Se hace,RM,Semanal,15,4.33,1.08,,,Dia/momento: Jueves.
+Gestion de Chips (administrativo),N/A,Activar chips (altas de lineas moviles),Se hace,RM,Semanal,15,4.33,1.08,,,Dia/momento: Jueves.
+Remoto de Equipos (REE),REE,Carga de REE en Manager2GO,Se hace,RM,Semanal,360,4.33,25.98,,,Dia/momento: Miercoles.
+Remoto de Equipos (REE),REE,Carga de chips en REE,Se hace,RM,Semanal,A confirmar,4.33,A confirmar,,,Dia/momento: Miercoles. Tiempo no relevado en el PDF - confirmar
+Remoto de Equipos (REE),REE,Carga de baterias en REE,Se hace,RM,Semanal,A confirmar,4.33,A confirmar,,,Dia/momento: Miercoles. Tiempo no relevado en el PDF - confirmar
+Remoto de Equipos (REE),REE,Pasar REE a carpeta 3,Se hace,RM,Semanal,360,4.33,25.98,,,Dia/momento: Miercoles.
+Remoto de Equipos (REE),REE,Entrega de REE a Administracion,Se hace,RM,Semanal,25,4.33,1.8,,,Dia/momento: Jueves.
+Remoto de Equipos (REE),REE,Adjuntar facturas a remito Manager2,Se hace,RM,Semanal,30,4.33,2.17,,,Dia/momento: Jueves.
+Gestion de Flota (RM),N/A,Control ITV vehiculo AF061RG,Se hace,RM,Semestral,5,0.17,0.01,,,Dia/momento: Nov/May.
+Gestion de Flota (RM),N/A,Control impuestos vehiculo AF061RG,Se hace,RM,Semestral,5,0.17,0.01,,,Dia/momento: Nov/May.
+Gestion de Flota (RM),N/A,Control ITV vehiculo AC921LR,Se hace,RM,Semestral,5,0.17,0.01,,,Dia/momento: Nov/May.
+Gestion de Flota (RM),N/A,Control impuestos vehiculo AC921LR,Se hace,RM,Semestral,5,0.17,0.01,,,Dia/momento: Nov/May.
+Gestion y Seguimiento de Clientes con Alta Recurrencia de Eventos (a confirmar nombre),Elaboracion y envio del informe semanal TOP10,Actualizar Base de Datos de clientes (previo al informe),Se hace,RM,Semanal,A confirmar,4.33,A confirmar,,,Dia/momento: Lunes. Tiempo no relevado en el PDF - confirmar
+Preparacion y Directivas de ST (RM),N/A,Preparacion de equipos (ST),Se hace,RM,Diario,A confirmar,22,A confirmar,,,Tiempo no relevado en el PDF - confirmar
+Preparacion y Directivas de ST (RM),N/A,Carga de directivas tecnicas,Se hace,RM,Semanal,A confirmar,4.33,A confirmar,,,Dia/momento: Lunes. Tiempo no relevado en el PDF - confirmar
+Preparacion y Directivas de ST (RM),N/A,Entrega de directiva a Administracion,Se hace,RM,Semanal,15,4.33,1.08,,,Dia/momento: Miercoles.
+Preparacion y Directivas de ST (RM),N/A,Control de buen estado receptoras IPR512 (R-11),Se hace,RM,Diario,A confirmar,22,A confirmar,,,Tiempo no relevado en el PDF - confirmar
+Preparacion y Directivas de ST (RM),N/A,Mandar mensajes a AVATEC 02,Se hace,RM,Diario,A confirmar,22,A confirmar,,,Tiempo no relevado en el PDF - confirmar
+Tareas Reactivas (Interrupciones),N/A,Coordinar instalaciones NCS,Se hace,AB,Semanal,5,4.33,0.36,,,Dia/momento: Interrupcion.
+Tareas Reactivas (Interrupciones),N/A,Responder informes de Monitoreo,Se hace,RM,IntraDiario,60,22,22.0,,,Dia/momento: Interrupcion.
+Tareas Reactivas (Interrupciones),N/A,Responder informes de Pvillarreal (CM),Se hace,RM,IntraDiario,A confirmar,22,A confirmar,,,Dia/momento: Interrupcion. Tiempo no relevado en el PDF - confirmar
+Tareas Reactivas (Interrupciones),N/A,Guardar y etiquetar stock que ingresa fuera de horario,Se hace,RM,Quincenal,120,2,4.0,,,Dia/momento: Interrupcion.
+Tareas Reactivas (Interrupciones),N/A,Recibir devolucion de instalacion (LM),Se hace,AB / RM,Semanal,20,4.33,1.44,,,Dia/momento: Lunes. Responsable en el catalogo figura como LOG (sin persona especifica asignada)
+Tareas Reactivas (Interrupciones),N/A,Recibir devolucion de instalacion (AA),Se hace,AB / RM,Semanal,20,4.33,1.44,,,Dia/momento: Lunes. Responsable en el catalogo figura como LOG (sin persona especifica asignada)
+Tareas Reactivas (Interrupciones),N/A,Atender telefono,Se hace,AB / RM,Diario,A confirmar,22,A confirmar,,,Dia/momento: Interrupcion. Responsable en el catalogo figura como LOG (sin persona especifica asignada)
+Tareas Reactivas (Interrupciones),N/A,Atender tecnico en sitio,Se hace,AB / RM,Diario,A confirmar,22,A confirmar,,,Dia/momento: Interrupcion. Responsable en el catalogo figura como LOG (sin persona especifica asignada)
+Tareas Reactivas (Interrupciones),N/A,Ingresar de forma remota por BabyWare,Se hace,AB / RM,IntraDiario,A confirmar,22,A confirmar,,,Dia/momento: Interrupcion. Responsable en el catalogo figura como LOG (sin persona especifica asignada)
+Tareas Reactivas (Interrupciones),N/A,Mandar mensajes a Chips Jasper,Se hace,AB / RM,IntraDiario,A confirmar,22,A confirmar,,,Dia/momento: Interrupcion. Responsable en el catalogo figura como LOG (sin persona especifica asignada)
+Tareas Reactivas (Interrupciones),N/A,Informar robo por Telegram,Se hace,AB / RM,IntraDiario,A confirmar,22,A confirmar,,,Dia/momento: Interrupcion. Responsable en el catalogo figura como LOG (sin persona especifica asignada)
+Tareas Reactivas (Interrupciones),N/A,Atender llamadas de clientes (celular),Se hace,AB / RM,IntraDiario,A confirmar,22,A confirmar,,,Dia/momento: Interrupcion. Responsable en el catalogo figura como LOG (sin persona especifica asignada)
+Tareas Reactivas (Interrupciones),N/A,Carga de Servicio Tecnico (coordinacion),Se hace,AB / RM,Diario,A confirmar,22,A confirmar,,,Responsable en el catalogo figura como LOG (sin persona especifica asignada)
+Administracion General (AB),N/A,Actualizacion de Datacenter / servidores,Se hace,AB / RM,Mensual,A confirmar,1,A confirmar,,,Dia/momento: Primer dia. Responsable en el catalogo figura como LOG (sin persona especifica asignada)

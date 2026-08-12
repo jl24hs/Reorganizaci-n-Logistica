@@ -18,3 +18,6 @@ esto como evidencia para pedir más personal — ver la carpeta [`docs/`](docs/)
 - [`docs/ejemplo-diagrama-flujo.md`](docs/ejemplo-diagrama-flujo.md):
   ejemplo dibujado (Mermaid) de un mapa macro y un diagrama de
   procedimiento con carriles por persona, a modo de plantilla visual.
+- [`docs/resumen-carga-horaria.md`](docs/resumen-carga-horaria.md):
+  cálculo de horas-persona/mes de AB y RM a partir de datos reales, y qué
+  falta para cerrar el número exacto que sostiene el pedido de personal.
