@@ -1,5 +1,19 @@
 # Carga horaria de AB y RM — pendiente de recalcular con datos validados
 
+## Capacidad disponible real (confirmada por el jefe de área)
+
+Horario: lunes a viernes de 8:00 a 17:00 con 1 hora de descanso, sábados
+de 8:00 a 12:00.
+
+- Lunes a viernes: 8 horas efectivas/día × 5 = 40 hs
+- Sábado: 4 hs
+- **Total: 44 horas/semana ≈ 191 horas/mes por persona**
+
+Este es el número contra el que hay que comparar la demanda de horas de
+AB y de RM una vez que esté calculada correctamente (ver más abajo). Reemplaza
+cualquier referencia anterior a "~176 hs/mes" — ese era un ejemplo genérico,
+no el horario real del equipo.
+
 **Corrección (12/08/2026):** la primera versión de este documento calculaba
 horas-persona/mes a partir de la columna "Tiempo" de la hoja "Procesos
 Diarios". El jefe de área confirmó que esos tiempos no están calculados

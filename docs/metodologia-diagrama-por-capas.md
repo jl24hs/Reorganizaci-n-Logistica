@@ -11,15 +11,35 @@ Antes de dibujar nada, volcá todo en una planilla (ver
 planilla es para *calcular y convencer*. Columnas clave:
 
 - Proceso / Procedimiento / Tarea (los tres niveles, ver glosario).
+- **Objetivo (por qué se hace)**: la razón de negocio de esa tarea/
+  procedimiento. Si no se puede responder "para qué sirve esto", es
+  candidato a revisar si realmente hace falta, o falta documentar por qué
+  se hace. Sin esto, un diagrama es solo una lista de pasos sin sentido.
 - Estado: `Se hace` / `Debería hacerse (falta)` / `Mejora futura`.
 - Responsable actual (si lo tiene).
 - Frecuencia (por pedido, por día, por semana).
-- Tiempo estimado por ejecución (minutos).
+- Tiempo estimado por ejecución (minutos) — **medido, no adivinado**. Un
+  tiempo estimado a ojo puede arruinar todo el cálculo de horas-persona;
+  mejor dejarlo en blanco que poner un número sin confirmar.
 - Volumen mensual (cuántas veces se ejecuta por mes).
 - Horas-persona/mes = tiempo × volumen (esta columna es la que arma el
-  caso de dotación).
+  caso de dotación — solo calcularla cuando el tiempo esté confirmado).
 - Por qué no se hace hoy (si aplica): falta de tiempo, falta de gente,
   falta de definición, falta de sistema, etc.
+
+### Horas disponibles por persona (dato real, no genérico)
+
+Para comparar contra las horas-persona/mes que demandan las tareas, hay
+que usar el horario real del equipo, no un número de manual:
+
+- Lunes a viernes: 8:00 a 17:00 (9 horas) menos 1 hora de descanso =
+  **8 horas efectivas/día** × 5 días = 40 hs.
+- Sábados: 8:00 a 12:00 = **4 horas**.
+- Total: **44 horas/semana** → **≈ 191 horas/mes** por persona (44 ×
+  4,33 semanas promedio por mes).
+
+Ese ≈191 es el número contra el que se compara la demanda de horas de
+cada persona, no un genérico de "8x5".
 
 Llenar esta planilla es el 80% del trabajo real. El diagrama después sale
 casi solo.
