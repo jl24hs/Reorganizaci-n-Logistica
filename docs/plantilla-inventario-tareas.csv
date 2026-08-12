@@ -1,0 +1,6 @@
+Proceso,Procedimiento,Tarea,Estado,Responsable actual,Frecuencia,Tiempo estimado (min),Volumen mensual,Horas-persona/mes,Motivo si falta,Prioridad,Observaciones
+Distribucion de Mercaderia,Procedimiento de carga de camion,Verificar bultos contra remito,Se hace,Operario A,Por camion,10,120,20,,,
+Distribucion de Mercaderia,Procedimiento de carga de camion,Escanear codigo de barras de cada bulto,Debería hacerse (falta),,Por bulto,1,3000,50,Falta de tiempo del operario,Alta,Hoy se verifica a ojo y genera diferencias de stock
+Distribucion de Mercaderia,Procedimiento de carga de camion,Firmar remito de conformidad,Se hace,Chofer,Por camion,2,120,4,,,
+Distribucion de Mercaderia,Procedimiento de armado de hoja de ruta,Optimizar orden de entregas por zona,Mejora futura,,Por dia,30,22,11,No hay nadie asignado a planificacion de rutas,Media,Hoy se arma a mano sin criterio de cercania
+Gestion de Inventario,Procedimiento de control de stock,Conteo ciclico de posiciones criticas,Debería hacerse (falta),,Semanal,120,4,8,Falta de personal para dedicar tiempo a conteos,Alta,Genera diferencias de stock no detectadas a tiempo
