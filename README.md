@@ -22,3 +22,7 @@ esto como evidencia para pedir más personal — ver la carpeta [`docs/`](docs/)
   estado del cálculo de horas-persona/mes de AB y RM — por qué todavía no
   se puede calcular con confianza y qué falta (descripción real de cada
   tarea y tiempos medidos) para poder hacerlo.
+- [`docs/organigrama-nivel1.md`](docs/organigrama-nivel1.md): diagrama de
+  flujo de nivel 1 del área — Julián López, el proceso macro, y los 10
+  bloques diarios de AB y RM con su estado de relevamiento. Punto de
+  partida para seguir abriendo cada bloque.
