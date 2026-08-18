@@ -26,3 +26,6 @@ esto como evidencia para pedir más personal — ver la carpeta [`docs/`](docs/)
   flujo de nivel 1 del área — Julián López, el proceso macro, y los 10
   bloques diarios de AB y RM con su estado de relevamiento. Punto de
   partida para seguir abriendo cada bloque.
+- [`docs/nivel2-redes-ab.md`](docs/nivel2-redes-ab.md) y
+  [`docs/nivel2-stock-ab.md`](docs/nivel2-stock-ab.md): segundo nivel del
+  diagrama para los bloques Redes y Stock de AB, con sus procedimientos.

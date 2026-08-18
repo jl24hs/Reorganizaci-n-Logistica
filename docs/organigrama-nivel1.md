@@ -41,7 +41,7 @@ flowchart TD
 |---|---|---|---|---|
 | AB | Lunes | Falla de Tests | Parcial | 3 tareas relevadas |
 | AB | Martes | Offline | Parcial | 2 tareas relevadas |
-| AB | Miércoles | Redes | **Sin datos** | 5 procedimientos identificados (ISP, Telefonía IP, Red NCS, Cámaras, Impresoras), 0 tareas con detalle |
+| AB | Miércoles | Redes | **Sin tareas** | 4 procedimientos confirmados por JL: Telefonía IP, Cámaras IP, Computación, Impresoras IP — ver `nivel2-redes-ab.md` |
 | AB | Jueves | Chips | Parcial | 4 tareas relevadas (aparecen como "Bloqueo/Desbloqueo de equipos" en el catálogo — confirmar si es lo mismo que "Chips") |
 | AB | Viernes | Stock | Documentado | 16 tareas relevadas |
 | RM | Lunes | TOP10 | Documentado | 11 pasos relevados (instructivo completo) |
