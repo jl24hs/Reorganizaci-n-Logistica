@@ -54,7 +54,14 @@ procedimientos en la práctica, no solo en la planilla.*
 - **Computación** (todas las PCs) — 🟢 Norton, antivirus/seguridad (trimestral, 240 min) — *JL sugiere separar a futuro "Seguridad" de "Redes/IP" dentro de este procedimiento*
 - **Impresoras IP** — 🔴 sin tareas cargadas
 
-## AB · Jueves · Ingreso Remoto a Clientes *(proceso nuevo — antes mal ubicado como "Chips")*
+## AB · Jueves · Chips *(corregido 18/08/2026 — el jueves de AB SÍ es Chips)*
+
+*Nota: yo lo había renombrado a "Ingreso Remoto a Clientes" pensando que
+"Chips" era solo la administración de SIMs de RM. JL corrigió: el jueves
+de AB es Chips. Queda pendiente confirmar si esto se fusiona con
+"Gestión de Chips (administrativo)" de RM como dos procedimientos de un
+mismo proceso compartido, o si son dos cosas distintas que casualmente
+comparten nombre y día.*
 
 - **Bloqueo y Desbloqueo — AXpro**
   - 🟢 Bloqueo de equipos AXpro (semanal, 30 min)

@@ -18,7 +18,7 @@ flowchart TD
     AB --> AB1[Lunes<br/>Falla de Tests]
     AB --> AB2[Martes<br/>Offline]
     AB --> AB3[Miércoles<br/>Redes]
-    AB --> AB4[Jueves<br/>Ingreso Remoto a Clientes]
+    AB --> AB4[Jueves<br/>Chips]
     AB --> AB5[Viernes<br/>Stock]
 
     RM --> RM1[Lunes<br/>TOP10]
@@ -39,14 +39,18 @@ flowchart TD
     class AB3,RM4,RM5 vacio
 ```
 
-**Cambios del 18/08/2026:** el jueves de AB no es "Chips" (eso es
-jueves de RM) — es **Ingreso Remoto a Clientes**, un proceso nuevo que
-agrupa bloqueo/desbloqueo de equipos AXpro y Paradox. Además aparecieron
-dos procesos que no son de un día ni de una persona: **Proceso de Cargas**
-(mantener la hoja de Procesos Diarios) y **Sin Proceso Asignado** (tareas
-compartidas — publicidad en WhatsApp, ordenar escritorio — que todavía no
-tienen un proceso propio). Ver el árbol completo de AB en
-`arbol-completo-ab.md`.
+**Cambios del 18/08/2026:** el jueves de AB **es Chips**, confirmado por
+JL — contiene el bloqueo/desbloqueo de equipos AXpro y Paradox (yo lo
+había renombrado a "Ingreso Remoto a Clientes" por error de
+interpretación, ya corregido). Queda pendiente confirmar si este Chips
+de AB se fusiona con "Gestión de Chips (administrativo)" de RM como dos
+procedimientos de un mismo proceso (AB = bloqueo/desbloqueo operativo,
+RM = facturación/altas-bajas administrativo), ya que ambos caen los
+jueves. Además aparecieron dos procesos que no son de un día ni de una
+persona: **Proceso de Cargas** (mantener la hoja de Procesos Diarios) y
+**Sin Proceso Asignado** (tareas compartidas — publicidad en WhatsApp,
+ordenar escritorio — que todavía no tienen un proceso propio). Ver el
+árbol completo de AB en `arbol-completo-ab.md`.
 
 ## Estado de relevamiento por bloque (12/08/2026)
 
@@ -55,7 +59,7 @@ tienen un proceso propio). Ver el árbol completo de AB en
 | AB | Lunes | Falla de Tests | Parcial | 3 tareas relevadas |
 | AB | Martes | Offline | Parcial | 2 tareas relevadas |
 | AB | Miércoles | Redes | **Sin tareas** | 4 procedimientos confirmados por JL: Telefonía IP, Cámaras IP, Computación, Impresoras IP — ver `nivel2-redes-ab.md` |
-| AB | Jueves | Ingreso Remoto a Clientes (antes "Chips") | Parcial | 4 tareas (bloqueo/desbloqueo AXpro y Paradox) |
+| AB | Jueves | Chips | Parcial | 4 tareas (bloqueo/desbloqueo AXpro y Paradox); a confirmar si se fusiona con "Gestión de Chips (administrativo)" de RM |
 | AB | Viernes | Stock | Documentado | 8 procedimientos, ~30 tareas (ver `arbol-completo-ab.md`) |
 | RM | Lunes | TOP10 | Documentado | 11 pasos relevados (instructivo completo) |
 | RM | Martes | OS (Órdenes de Servicio) | Parcial | 6 tareas relevadas |
