@@ -29,3 +29,8 @@ esto como evidencia para pedir más personal — ver la carpeta [`docs/`](docs/)
 - [`docs/nivel2-redes-ab.md`](docs/nivel2-redes-ab.md) y
   [`docs/nivel2-stock-ab.md`](docs/nivel2-stock-ab.md): segundo nivel del
   diagrama para los bloques Redes y Stock de AB, con sus procedimientos.
+- [`docs/arbol-completo-ab.md`](docs/arbol-completo-ab.md): árbol
+  completo de AB (los 5 procesos de sus días + los 2 procesos
+  transversales), con cada tarea marcada como hecha, con dato faltante,
+  o gap identificado. Es el documento de trabajo más detallado hasta
+  ahora — construido tarea por tarea junto con JL.
