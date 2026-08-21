@@ -62,10 +62,10 @@ ordenar escritorio — que todavía no tienen un proceso propio). Ver el
 | AB | Jueves | Chips | Parcial | 4 tareas (bloqueo/desbloqueo AXpro y Paradox); a confirmar si se fusiona con "Gestión de Chips (administrativo)" de RM |
 | AB | Viernes | Stock | Documentado | 8 procedimientos, ~30 tareas (ver `arbol-completo-ab.md`) |
 | RM | Lunes | TOP10 | Documentado | 11 pasos relevados (instructivo completo) |
-| RM | Martes | OS (Órdenes de Servicio) | Parcial | 6 tareas relevadas |
+| RM | Martes | ODS (Órdenes de Servicio) | Parcial | 6 tareas relevadas |
 | RM | Miércoles | REE (Remoto de Equipos) | Parcial | 6 tareas relevadas |
-| RM | Jueves | Configuración | **Sin datos** | No aparece con ese nombre en el catálogo; candidatos a confirmar: Gestión de Chips (administrativo), Directivas técnicas |
-| RM | Viernes | Red + Revisión de Eventos | **Sin datos** | 0 tareas relevadas |
+| RM | Jueves | Configuración AXPRO | **Parcial (nombre a reconciliar)** | Nombre confirmado por JL (18/08/2026); las 12 tareas cargadas hoy son de facturación de chips, no de "configurar AXPRO" — falta confirmar si es lo mismo |
+| RM | Viernes | Revisión de Eventos Diarios / Red | **Sin datos** | 0 tareas relevadas |
 
 Ninguno de estos números incluye tiempos ni objetivos confirmados — eso
 es la siguiente capa a completar dentro de cada bloque (ver

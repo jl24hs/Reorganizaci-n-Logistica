@@ -34,3 +34,7 @@ esto como evidencia para pedir más personal — ver la carpeta [`docs/`](docs/)
   transversales), con cada tarea marcada como hecha, con dato faltante,
   o gap identificado. Es el documento de trabajo más detallado hasta
   ahora — construido tarea por tarea junto con JL.
+- [`docs/plantilla-inventario-tareas.xlsx`](docs/plantilla-inventario-tareas.xlsx):
+  la misma planilla de inventario, en Excel — con filtro, encabezado
+  fijo, colores por Estado y una hoja de instrucciones, para seguir
+  cargando tareas nuevas directamente ahí.
