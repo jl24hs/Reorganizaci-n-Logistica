@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_stock_shortage_settings_manager,stock.shortage.settings.manager,model_stock_shortage_settings,stock.group_stock_manager,1,1,1,1
+access_stock_shortage_warehouse_config_manager,stock.shortage.warehouse.config.manager,model_stock_shortage_warehouse_config,stock.group_stock_manager,1,1,1,1
+access_stock_shortage_report_manager,stock.shortage.report.manager,model_stock_shortage_report,stock.group_stock_manager,1,1,1,1
+access_stock_shortage_report_user,stock.shortage.report.user,model_stock_shortage_report,stock.group_stock_user,1,0,0,0
+access_stock_shortage_report_line_manager,stock.shortage.report.line.manager,model_stock_shortage_report_line,stock.group_stock_manager,1,1,1,1
+access_stock_shortage_report_line_user,stock.shortage.report.line.user,model_stock_shortage_report_line,stock.group_stock_user,1,0,0,0

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+    <!--
+        Corre todos los viernes. El ancla (nextcall) es un viernes a las
+        10:00 UTC (07:00 hora Argentina, UTC-3); el intervalo semanal
+        mantiene ese mismo día/horario en cada corrida siguiente. Si se
+        reinstala el módulo mucho tiempo después de esta fecha, ajustar
+        "nextcall" al próximo viernes deseado.
+    -->
+    <record id="ir_cron_stock_shortage_weekly_report" model="ir.cron">
+        <field name="name">Faltantes de stock: generar reporte semanal</field>
+        <field name="model_id" ref="model_stock_shortage_report"/>
+        <field name="state">code</field>
+        <field name="code">model._cron_generate_weekly_report()</field>
+        <field name="interval_number">1</field>
+        <field name="interval_type">weeks</field>
+        <field name="numbercall">-1</field>
+        <field name="nextcall" eval="'2026-08-28 10:00:00'"/>
+        <field name="active">True</field>
+    </record>
+</odoo>

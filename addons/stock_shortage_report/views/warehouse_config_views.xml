@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_stock_shortage_warehouse_config_tree" model="ir.ui.view">
+        <field name="name">stock.shortage.warehouse.config.tree</field>
+        <field name="model">stock.shortage.warehouse.config</field>
+        <field name="arch" type="xml">
+            <tree string="Configuración por depósito" editable="bottom">
+                <field name="warehouse_id"/>
+                <field name="consumption_picking_type_ids" widget="many2many_tags"/>
+                <field name="d1_fallback_picking_type_ids" widget="many2many_tags"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_stock_shortage_warehouse_config_form" model="ir.ui.view">
+        <field name="name">stock.shortage.warehouse.config.form</field>
+        <field name="model">stock.shortage.warehouse.config</field>
+        <field name="arch" type="xml">
+            <form string="Configuración por depósito">
+                <sheet>
+                    <group>
+                        <field name="warehouse_id"/>
+                        <field name="consumption_picking_type_ids" widget="many2many_tags"/>
+                        <field name="d1_fallback_picking_type_ids" widget="many2many_tags"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_stock_shortage_warehouse_config" model="ir.actions.act_window">
+        <field name="name">Depósitos</field>
+        <field name="res_model">stock.shortage.warehouse.config</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+</odoo>
