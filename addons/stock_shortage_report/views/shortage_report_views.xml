@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_stock_shortage_report_tree" model="ir.ui.view">
+        <field name="name">stock.shortage.report.tree</field>
+        <field name="model">stock.shortage.report</field>
+        <field name="arch" type="xml">
+            <tree string="Reportes de faltantes">
+                <field name="name"/>
+                <field name="date_generated"/>
+                <field name="period_days"/>
+                <field name="threshold_days"/>
+                <field name="shortage_count"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_stock_shortage_report_form" model="ir.ui.view">
+        <field name="name">stock.shortage.report.form</field>
+        <field name="model">stock.shortage.report</field>
+        <field name="arch" type="xml">
+            <form string="Reporte de faltantes">
+                <header>
+                    <button name="action_generate_lines" type="object"
+                            string="Generar / Regenerar líneas" class="oe_highlight"/>
+                </header>
+                <sheet>
+                    <div class="oe_button_box" name="button_box">
+                        <button name="%(action_stock_shortage_report_line_shortages)d"
+                                type="action" class="oe_stat_button" icon="fa-warning"
+                                context="{'search_default_report_id': id}">
+                            <field name="shortage_count" widget="statinfo" string="Faltantes"/>
+                        </button>
+                    </div>
+                    <group>
+                        <field name="name"/>
+                        <field name="date_generated"/>
+                        <field name="period_days"/>
+                        <field name="threshold_days"/>
+                    </group>
+                    <notebook>
+                        <page string="Líneas">
+                            <field name="line_ids">
+                                <tree decoration-danger="is_shortage">
+                                    <field name="warehouse_id"/>
+                                    <field name="product_id"/>
+                                    <field name="qty_on_hand"/>
+                                    <field name="qty_consumed"/>
+                                    <field name="avg_daily_consumption"/>
+                                    <field name="coverage_days"/>
+                                    <field name="is_shortage"/>
+                                </tree>
+                            </field>
+                        </page>
+                    </notebook>
+                    <div class="oe_chatter">
+                        <field name="message_follower_ids"/>
+                        <field name="message_ids"/>
+                    </div>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_stock_shortage_report" model="ir.actions.act_window">
+        <field name="name">Reportes de faltantes</field>
+        <field name="res_model">stock.shortage.report</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="view_stock_shortage_report_line_tree" model="ir.ui.view">
+        <field name="name">stock.shortage.report.line.tree</field>
+        <field name="model">stock.shortage.report.line</field>
+        <field name="arch" type="xml">
+            <tree string="Líneas de faltantes" decoration-danger="is_shortage">
+                <field name="report_id"/>
+                <field name="warehouse_id"/>
+                <field name="product_id"/>
+                <field name="qty_on_hand"/>
+                <field name="qty_consumed"/>
+                <field name="avg_daily_consumption"/>
+                <field name="coverage_days"/>
+                <field name="is_shortage"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_stock_shortage_report_line_pivot" model="ir.ui.view">
+        <field name="name">stock.shortage.report.line.pivot</field>
+        <field name="model">stock.shortage.report.line</field>
+        <field name="arch" type="xml">
+            <pivot string="Cobertura por producto/depósito">
+                <field name="warehouse_id" type="col"/>
+                <field name="product_id" type="row"/>
+                <field name="coverage_days" type="measure"/>
+                <field name="qty_on_hand" type="measure"/>
+            </pivot>
+        </field>
+    </record>
+
+    <record id="view_stock_shortage_report_line_search" model="ir.ui.view">
+        <field name="name">stock.shortage.report.line.search</field>
+        <field name="model">stock.shortage.report.line</field>
+        <field name="arch" type="xml">
+            <search string="Buscar líneas de faltantes">
+                <field name="product_id"/>
+                <field name="warehouse_id"/>
+                <field name="report_id"/>
+                <filter string="En faltante" name="only_shortage"
+                        domain="[('is_shortage', '=', True)]"/>
+                <group expand="0" string="Agrupar por">
+                    <filter string="Depósito" name="group_warehouse"
+                            context="{'group_by': 'warehouse_id'}"/>
+                    <filter string="Producto" name="group_product"
+                            context="{'group_by': 'product_id'}"/>
+                    <filter string="Reporte" name="group_report"
+                            context="{'group_by': 'report_id'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_stock_shortage_report_line_shortages" model="ir.actions.act_window">
+        <field name="name">Productos en faltante</field>
+        <field name="res_model">stock.shortage.report.line</field>
+        <field name="view_mode">tree,pivot</field>
+        <field name="context">{'search_default_only_shortage': 1}</field>
+    </record>
+</odoo>

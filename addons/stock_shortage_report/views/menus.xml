@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id="menu_stock_shortage_root"
+              name="Faltantes de Stock"
+              sequence="60"/>
+
+    <menuitem id="menu_stock_shortage_reports"
+              name="Reportes"
+              parent="menu_stock_shortage_root"
+              action="action_stock_shortage_report"
+              sequence="10"/>
+
+    <menuitem id="menu_stock_shortage_shortages"
+              name="Productos en faltante"
+              parent="menu_stock_shortage_root"
+              action="action_stock_shortage_report_line_shortages"
+              sequence="20"/>
+
+    <menuitem id="menu_stock_shortage_config"
+              name="Configuración"
+              parent="menu_stock_shortage_root"
+              sequence="90"/>
+
+    <menuitem id="menu_stock_shortage_config_settings"
+              name="Ajustes generales"
+              parent="menu_stock_shortage_config"
+              action="action_stock_shortage_settings"
+              sequence="10"/>
+
+    <menuitem id="menu_stock_shortage_config_warehouses"
+              name="Depósitos"
+              parent="menu_stock_shortage_config"
+              action="action_stock_shortage_warehouse_config"
+              sequence="20"/>
+</odoo>
